@@ -1,2 +1,7 @@
-- title: 杂记
-  slug: model
+- title: 杂记 / Miscellaneous Notes
+  slug: miscellaneous
+- title: 模型部署 / Model Deployment
+  slug: model-deployment
+  posts:
+    - title: 模型部署简单示例（TensorRT C++） / Simple Model Deployment Example (TensorRT C++)
+      url: /miscellaneous/model-deployment/tensorrt-cpp/

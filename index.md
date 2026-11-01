@@ -7,7 +7,7 @@ title: 首页
 
 My Learning Journey.
 
-## categories
+## 分类 / Categories
 
 {% assign categories = site.data.categories %}
 {% include category-list.html categories=categories %}

@@ -1,7 +1,15 @@
 <ul>
   {% for category in include.categories %}
     <li>
-      <a href="#category-{{ category.slug }}">{{ category.title }}</a>
+      <strong id="category-{{ category.slug }}">{{ category.title }}</strong>
+
+      {% if category.posts %}
+        <ul>
+          {% for post in category.posts %}
+            <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ul>
+      {% endif %}
 
       {% if category.children %}
         {% include category-list.html categories=category.children %}
