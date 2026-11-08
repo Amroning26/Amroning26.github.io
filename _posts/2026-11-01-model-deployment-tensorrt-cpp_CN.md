@@ -129,7 +129,7 @@ https://github.com/microsoft/onnxjs-demo/raw/master/public/mnist.onnx
 
 
 
-![](/img/num.jpg)
+![]({{ '/assets/images/num.jpg' | relative_url }})
 
 
 
@@ -484,4 +484,4 @@ $$
 
 贴一张运行结果：
 
-![](./img/result.jpg)
+![]({{ '/assets/images/result.jpg' | relative_url }})

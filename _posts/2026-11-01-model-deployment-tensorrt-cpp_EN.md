@@ -123,7 +123,7 @@ https://github.com/microsoft/onnxjs-demo/raw/master/public/mnist.onnx
 
 - The digit image used for testing should resemble the MNIST dataset as closely as possible: a white digit centered on a black background.
 
-![](/img/num.jpg)
+![]({{ '/assets/images/num.jpg' | relative_url }})
 
 # The Code
 
@@ -423,5 +423,5 @@ $$
 
 Here is an example result:
 
-![](./img/result.jpg)
+![]({{ '/assets/images/result.jpg' | relative_url }})
 
