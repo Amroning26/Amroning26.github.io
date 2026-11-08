@@ -8,7 +8,7 @@ categories:
 tags:
   - TensorRT
   - C++
-permalink: /en/miscellaneous/model-deployment/tensorrt-cpp/
+permalink: /en/model-deployment/tensorrt-cpp/
 ---
 
 {% include language-switch.html %}

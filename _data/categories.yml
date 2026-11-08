@@ -4,4 +4,4 @@
   slug: model-deployment
   posts:
     - title: 模型部署简单示例（TensorRT C++） / Simple Model Deployment Example (TensorRT C++)
-      url: /miscellaneous/model-deployment/tensorrt-cpp/
+      url: /model-deployment/tensorrt-cpp/
